@@ -1,6 +1,6 @@
 # fan-development-skills
 
-**A full-funnel, diagnostic-first skills toolkit for anyone trying to grow an audience.**
+**A full-funnel, diagnostic-first Claude skills toolkit for anyone trying to grow an audience.**
 
 You describe your business and your audience `/research` proposes and scores
 candidate segments and tells you where the bottleneck is: awareness, engagement, or integration. From there, three action
@@ -48,6 +48,7 @@ assemble all four briefs into one document, in an order weighted by the diagnosi
 
 ## Quick start
 
+**Clone the repo:** download the skills to your computer, then:
 ```bash
 git clone https://github.com/varianthuman7-ops/fan-development-skills.git
 ```
