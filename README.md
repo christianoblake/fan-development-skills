@@ -48,7 +48,7 @@ assemble all four briefs into one document, in an order weighted by the diagnosi
 
 ## Quick start
 
-**Clone the repo:** download the skills to your computer, then:
+**Clone the repo:** download the skills to your computer.
 ```bash
 git clone https://github.com/varianthuman7-ops/fan-development-skills.git
 ```
