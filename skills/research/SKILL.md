@@ -62,6 +62,14 @@ from:
 4. If operator-provided: use it as given — it's already theirs, no
    confirmation loop needed.
 
+## Confirm Coverage (build-from-scratch mode only)
+
+Before proposing candidates, ask the operator directly: "Are there any key
+metrics, data sources, resource considerations, priorities or anything else
+about the business you'd like to add before we generate segment candidates?"
+Wait for their answer and fold anything they share into the business/audience
+understanding before moving to Propose Candidates below.
+
 ## Propose Candidates (build-from-scratch mode only)
 
 1. Start from the default list: new/first-touch users, lapsed users, power
@@ -155,6 +163,9 @@ it's happening, don't silently degrade quality without saying so.
 - A `LOW_EVIDENCE`-worthy claim presented without the flag.
 - A web-researched business description used without ever being shown back
   for confirmation.
+- Build-from-scratch mode moving straight from the business description into
+  Propose Candidates without asking the operator if there's anything else to
+  add first.
 - Thought-partner mode running a full candidate-proposal sweep the operator
   didn't ask for.
 - A search capability available in the session but never actually invoked.
@@ -167,6 +178,9 @@ Before treating a run as complete, confirm:
       resolved before any proposing or scoring
 - [ ] Build-from-scratch: the business description is either operator-provided
       or web-researched-and-confirmed before continuing
+- [ ] Build-from-scratch: the operator was explicitly asked for any key
+      metrics, data sources, resource considerations, or priorities to add,
+      before candidates were proposed
 - [ ] At least one candidate segment beyond the default five, when the
       business description supports one
 - [ ] Source-discernment reasoning was stated out loud, not applied as a
