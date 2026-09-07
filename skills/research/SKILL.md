@@ -72,8 +72,8 @@ understanding before moving to Propose Candidates below.
 
 ## Propose Candidates (build-from-scratch mode only)
 
-1. Start from the default list: new/first-touch users, lapsed users, power
-   users not yet advocates, adjacent-market prospects, internal/employee
+1. Start from the default list: new/first-touch fans, lapsed fans, dedicated
+   fans not yet advocates, adjacent-market prospects, internal/employee
    advocates. This list is a floor, never a ceiling.
 2. Add candidates the business/audience description or shared data actually
    suggests. A run that scores only the five defaults, unmodified, regardless
