@@ -37,10 +37,10 @@ own.
 | Skill | What it does | Use when | Key principle |
 |---|---|---|---|
 | [`using-fan-development-skills`](skills/using-fan-development-skills/SKILL.md) | Router. Defines the operating rules every other skill follows, and decides single-skill vs. full-flow mode. | If you're not sure where to start this is the spot. | Same rules, each time |
-| [`research`](skills/research/SKILL.md) | Proposes and scores candidate audience segments from your own description of your business and audience. Flags weak evidence instead of guessing. | You don't know which segment to prioritize, or you want to pressure-test the one you already believe in. | Flag the gap, don't guess |
+| [`research`](skills/research/SKILL.md) | Proposes and scores candidate audience segments from your own description of your business and audience. Flags weak evidence instead of guessing. | You don't know which segment to prioritize, or you want to pressure-test the one you already believe in. | Find the gap, don't guess |
 | [`awareness`](skills/awareness/SKILL.md) | How a segment currently discovers you, where that discovery breaks down, and what channel/message closes the gap. | The bottleneck is that people who'd care don't know you exist. | Known isn't found |
 | [`engagement`](skills/engagement/SKILL.md) | A low-barrier engagement mechanic, designed around a format the segment is already comfortable with elsewhere. | People know you exist but haven't taken a first real step. | Meet them on their terms |
-| [`integration`](skills/integration/SKILL.md) | How casual engagement becomes an identified, ongoing relationship — and how that connects to a business outcome. | People engage once and don't come back, or you can't tell who they are the second time. | Casual isn't counted |
+| [`integration`](skills/integration/SKILL.md) | How casual engagement becomes an identified, ongoing relationship — and how that connects to a business outcome. | People engage once and don't come back, or you can't tell who they are the second time. | Convert casual to connection |
 
 Every skill produces a structured brief: the situation, the recommended approach
 and why, the resourcing implication, the metric to track for that stage, risks to watch, and a check-in question back to you. Full-flow runs
@@ -50,7 +50,7 @@ assemble all four briefs into one document, in an order weighted by the diagnosi
 
 **Clone the repo:** download the skills to your computer.
 ```bash
-git clone https://github.com/varianthuman7-ops/fan-development-skills.git
+git clone https://github.com/christianoblake/fan-development-skills.git
 ```
 
 **Claude Code:** copy `skills/*` into your project's `.claude/skills/` (or
